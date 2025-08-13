@@ -1,0 +1,13 @@
+#navbar ul {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+#navbar a {
+    color: greenyellow;
+}
