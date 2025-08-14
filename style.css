@@ -11,3 +11,42 @@
 #navbar a {
     color: greenyellow;
 }
+
+#body-align {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .body-align-color {
+        text-align: center;
+        background-color: cornflowerblue;
+    }
+
+    .heading-size {
+        font-size: 12px;
+    }    
+
+    .text-size {
+        font-size: 8px;
+        text-align: center;
+    }
+
+    .img-size {
+        width: 30%;
+        height: auto;
+    }
+
+    #navbar ul {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: center;
+    margin: 5px;
+    font-size: 8px;
+    }
+
+    #navbar a {
+    color: greenyellow;
+    }
+}
