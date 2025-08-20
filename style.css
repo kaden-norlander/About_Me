@@ -44,7 +44,6 @@
 }
 
 .list {
-    padding-left: 540px;
     width: 200px;
 }
 
@@ -54,6 +53,15 @@
 
 #section-header {
     background-color: black;
+}
+
+#section-header2 {
+    background-color: black;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
 }
 
 @media screen and (max-width: 600px) {
