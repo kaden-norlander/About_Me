@@ -30,6 +30,7 @@
 .headings2 {
     color: greenyellow;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
 }
 
 .highlight {
@@ -51,6 +52,11 @@
     border: 3px solid black;
 }
 
+.image-adjust {
+    width: 150px;
+    height: 100px;
+}
+
 #section-header {
     background-color: black;
 }
@@ -60,6 +66,17 @@
 }
 
 .main-container {
+    display: flex;
+    justify-content: center;
+}
+
+.mid-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+}
+
+.table-container {
     display: flex;
     justify-content: center;
 }
@@ -84,7 +101,7 @@
         height: auto;
     }
 
-    #navbar ul {
+    #navbar .u-list {
     background-color: black;
     display: flex;
     flex-direction: column;

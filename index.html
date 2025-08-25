@@ -7,7 +7,7 @@
 <body class="highlight" id="body-align">
 
     <nav id="navbar">
-        <ul>
+        <ul class="u-list">
             <li><a href="#my-interest">My Interest</a></li>
             <li><a href="#my-hobbies">My Hobbies</a></li>
         </ul>
@@ -26,7 +26,7 @@
     <div class="main-container">
         <div>
         <h3 class="headings2" id="section-header"> My Hobbies </h3>
-            <ul class="list">
+            <ul class="u-list">
                 <li>Spike Ball</li> 
                 <li>Ultimate Frisbee</li> 
                 <li>Weightlifting</li>
@@ -43,52 +43,54 @@
     </div>
     <br>
 
-    <section>
-    <h3 class="headings2">Links</h3>
-    <p><strong class="heading-size">External Link</strong></p>
-    <a href="https://www.lmctruck.com/?srsltid=AfmBOoq4J8yGagA1EEcgdu_fUgTXKKIrnnT5OWThv32YZW9bR3217WSA">LMC Truck </a>
-    <p><strong class="heading-size">Internal Link</strong></p>
-    <p><a href="#Table_at_bottom">Jump to the table</a></p>
-    </section>
+    <div class="main-container">
+        <div>
+            <h3 class="headings2">Links</h3>
+            <p><strong class="heading-size">External Link</strong></p>
+            <a target="_blank" href="https://www.lmctruck.com/?srsltid=AfmBOoq4J8yGagA1EEcgdu_fUgTXKKIrnnT5OWThv32YZW9bR3217WSA">LMC Truck </a>
+            <p><strong class="heading-size">Internal Link</strong></p>
+            <p><a href="#Table_at_bottom">Jump to the table</a></p>
+        </div>
+        <div class="mid-container">
+            <h3 class="headings2">Photo Gallery</h3>
+            <img class="image-adjust" id="main-image"
+            src="images/louie.jpg"
+            alt="Louie Lopez skating over a handrail" />
+            <br>
+            <img class="image-adjust"
+            src="images/spikeball.jpg"
+            alt="Playing Spike Ball on the beach" />
+            <br>
+            <img class="image-adjust"
+            src="images/Bandit.jpg"
+            alt="The Bandit Firebird" />
 
-    <section>
-    <br>
-    <h3 class="headings2">Photo Gallery</h3>
-    <img class="main-image"
-        src="images/louie.jpg"
-        alt="Louie Lopez skating over a handrail" />
-    <br>
-    <img
-        src="images/spikeball.jpg"
-        alt="Playing Spike Ball on the beach" />
-    <br>
-    <img
-        src="images/Bandit.jpg"
-        alt="The Bandit Firebird" />
-    <br>
-    <br>
-    </section>
+        </div>
+    </div>
+
 
     <h3 class="headings2">Movie Table</h3>
-    <table>
-        <caption>IMDb Ratings of My Top 3 Movies</caption>
-        <tr>
-            <th>Movies</th>
-            <th>Ratings</th>
-        </tr>
-        <tr>
-            <td>Smokey And The Bandit</td>
-            <td>IMDb: 7/10</td>
-        </tr>
-        <tr>
-            <td>Rocky</td>
-            <td>IMDb: 8.1/10</td>
-        </tr>
-        <tr>
-            <td>A Fistful of Dollars</td>
-            <td>IMDb: 7.9/10</td>
-        </tr>
-    </table>
+    <div class="table-container" id="Table_at_bottom">
+        <table>
+            <caption>IMDb Ratings of My Top 3 Movies</caption>
+            <tr>
+                <th>Movies</th>
+                <th>Ratings</th>
+            </tr>
+            <tr>
+                <td>Smokey And The Bandit</td>
+                <td>IMDb: 7/10</td>
+            </tr>
+            <tr>
+                <td>Rocky</td>
+                <td>IMDb: 8.1/10</td>
+            </tr>
+            <tr>
+                <td>A Fistful of Dollars</td>
+                <td>IMDb: 7.9/10</td>
+            </tr>
+        </table>
+    </div>
 
 </body>
 </html>
