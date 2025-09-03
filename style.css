@@ -1,4 +1,4 @@
-#navbar ul { 
+#navbar .nav-ul { 
     background-color: black;
     display: flex;
     flex-direction: row;
@@ -14,7 +14,7 @@
     margin-left: 30%;
 }
 
-#navbar a {
+#navbar .nav-a {
     color: greenyellow;
 }
 
@@ -111,7 +111,7 @@
     font-size: 8px;
     }
 
-    #navbar a {
+    #navbar .a-class {
     color: greenyellow;
     }
 }
